@@ -1,0 +1,692 @@
+body
+{
+    font: 400 15px 'Ubuntu Light', sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    height: 100%;
+}
+h1{
+    color:#506c82;
+}
+h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #303030;
+}
+h4
+{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.375em;
+    margin-bottom: 30px;
+    color: #818181;
+}
+.lead {
+    font-size: 21px;
+    color: #506c82;
+}
+.container-fluid
+{
+    padding: 60px 50px;
+}
+.bg-grey
+{
+    background-color: #f6f6f6;
+}
+.logo-small
+{
+    font-size: 50px;
+    color: #df315b;
+}
+.logo
+{
+    font-size: 200px;
+    color: #435196;
+}
+.thumbnail
+{
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 40px;
+}
+.thumbnail img
+{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.panel
+{
+    transition: box-shadow .5s;
+    border: 1px solid #506c82;
+    border-radius: 0 !important;
+}
+.panel:hover
+{
+    box-shadow: 5px 0 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover
+{
+    color: #008bcb;
+    border: 1px solid #008bcb;
+    background-color: #fff !important;
+}
+.panel-heading
+{
+    padding: 25px;
+    color: #fff !important;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #008bcb !important;
+}
+.panel-footer
+{
+    background-color: white !important;
+}
+.panel-footer h3
+{
+    font-size: 32px;
+}
+.panel-footer h4
+{
+    font-size: 14px;
+    color: #aaa;
+}
+.panel-footer .btn
+{
+    margin: 15px 0;
+    color: #fff;
+    background-color: #008bcb;
+}
+/*********************************************************************************************
+                                   Navigation
+Order is important here, otherwise landing page nav won't work.
+*********************************************************************************************/
+.navbar
+{
+    font-family: 'Ubuntu Light', sans-serif;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    z-index: 9999;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    border: 0;
+    border-radius: 0;
+    background-color: #506c82;
+}
+
+.navbar li a,
+.navbar .navbar-brand
+{
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a
+{
+    color: #506c82 !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    color: #fff !important;
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: #fff;
+}
+/* overide bootstrap default background colour #fff */
+.dropdown-menu
+{
+    background-color: #506c82;
+}
+.dropdown-menu .divider
+{
+    overflow: hidden;
+    height: 1px;
+    margin: 5px 0;
+    background-color: #aaa;
+}
+/*********************************************************************************************
+Jumbotron on concept page
+**********************************************************************************************/
+.jumbotron
+{
+    font-family: 'Ubuntu Light', sans-serif;
+    margin-bottom: 0;
+    padding: 100px 25px;
+    color: #fff;
+    background-color: #506c82;;
+}
+.btn-primary
+{
+    color: #fff;
+    border-color: #2e6da4;
+    background-color: #df315b;
+}
+.phones
+{
+    position: relative;
+}
+.phone
+{
+    position: relative;
+    max-width: 80%;
+    margin: 3rem auto -15rem;
+}
+/*********************************************************************************************
+Slide in animation initial state hidden
+**********************************************************************************************/
+.slideanim
+{
+    visibility: hidden;
+}
+.slide
+{
+    visibility: visible;
+    -webkit-animation-name: slide;
+            animation-name: slide;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  PERSONA
+/*-----------------------------------------------------------------------------------*/
+
+.persona{
+    text-align: left;
+    overflow: hidden;
+    min-height: 200px;
+}
+.persona h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 60%;
+  margin-left: -5px;
+  border-top-color: #506c82;
+  border-width: 5px 5px 0;
+}
+.tooltip-inner {
+  color: #fff;
+  font-size: 16px;
+  background: #506c82;
+  border: solid 1px #506c82;
+}
+.progress {
+    background: #f5f5f5; 
+    border: 0px solid #f5f5f5; 
+    border-radius: 10px; 
+    height: 30px;
+}
+.progress-bar{
+    font-size: 16px;
+    line-height: 30px;
+}
+.progress-bar-blue {
+    background: #51b7c8;
+}
+.progress-bar-orange {
+    background: #f77732;
+}
+.devices{
+    display: inline-block;
+    margin: 0 0 50px 0;
+    padding: 0px;
+}
+
+#tabs .tab-content {
+  color : #506c82;
+  background-color: #fff;
+  padding : 5px 15px;
+}
+.nav-tabs>li>a{
+    font-size: 20px;
+    color : #df315b;
+}
+.primary-goal{
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+.secondary-goal{
+    padding: 15px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  USE CASES - Accordion
+/*-----------------------------------------------------------------------------------*/
+.usecases h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.usecases{
+    margin-bottom: 50px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #506c82;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #506c82;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+button.accordion:after {
+    content: '\25C1'; /* Unicode character for "plus" sign (+) */
+    font-size: 24px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\25BD"; /* Unicode character for "minus" sign (-) */
+}
+button {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.428571429;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #506c82;
+}
+/*************************
+stats section
+**************************/
+#stats {
+  text-align: center;
+}
+#stats p{
+    padding-bottom: 20px;
+}
+#stats h1{
+    margin-bottom: 40px;
+}
+#stats i {
+  font-size: 48px;
+}
+
+#stats h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: #506c82;
+}
+.fa {
+    color: #dd4b39;
+    font-size: 1.5em;
+}
+/*********************************************************************************************
+User quotes
+**********************************************************************************************/
+
+.quote {
+    text-align: center;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+/**********************************************
+Design goals
+***********************************************/
+#design h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+#design .glyphicon{
+    color: #506c82;
+}
+#selfgoals{
+    text-align: center;
+}
+
+/**********************************************
+Thanks Page
+************************************************/
+.member-content .social-content li a{
+    display:inline-block;
+    padding:0;
+    min-width:40px;
+    height:40px;
+    font-size:21px;
+    line-height:40px;
+    color:#506c82;
+    border-radius:5px;
+    box-shadow:0 3px 0 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content .details {
+    margin:20px 0 0 20px;
+    position:relative;
+    padding:30px;
+    padding-left:100px;
+    background:#f5f5f5;
+    border-radius:10px;
+    box-shadow:5px 5px 0 rgba(0,0,0,0.08);
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content {
+    margin-bottom:30px;
+}
+
+.member-thumb{
+    text-align:center;
+}
+
+.member-thumb h4{
+    font-size:21px;
+    margin:10px 0;
+}
+
+.member-thumb .title{
+    font-size:18px;
+    margin:10px 0;
+    color:#506c82;
+}
+
+.member-content:hover .details {
+    background:#506c82;
+    color:#fff;
+}
+
+.member-content.right .details {
+    margin:20px 20px 0 0;
+    box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
+}
+
+.member-content .details:after {
+    display:block;
+    content:"";
+    position:absolute;
+    left:-18px;
+    top:30px;
+    width:0px;
+    height:0px;
+    background:transparent;
+    border:20px solid transparent;
+    border-left:20px solid #f5f5f5;
+    box-shadow:-3px 0 0 rgba(0,0,0,0.08);
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    -webkit-transition:border-left-color .3s ease-out;
+    transition:border-left-color .3s ease-out;
+}
+
+.member-content.right .details:after {
+    position:absolute;
+    left:auto;
+    right:-17px;
+    border-left:20px solid transparent;
+    border-right:20px solid #f5f5f5;
+    box-shadow:3px 0 0 0 rgba(0,0,0,0.08);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+    -webkit-transition:border-right-color .3s ease-out;
+    transition:border-right-color .3s ease-out;
+}
+
+.member-content:hover .details:after {
+    border-left-color:#506c82;
+}
+
+.member-content.right:hover .details:after {
+    border-left-color:transparent;
+    border-right-color:#506c82;
+}
+
+.member-content .details:before {
+    display:block;
+    content:"\201D";
+    position:absolute;
+    left:20px;
+    top:50px;
+    font-size:120px;
+    font-weight:800;
+    line-height:60px;
+    font-family:Arial;
+    color:#506c82;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.member-content:hover .details:before {
+    color:#fff;
+}
+
+.member-content .social-content {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.member-content .social-content li {
+    display:inline;
+    text-align:center;
+    margin:0 2px;
+}
+
+.member-content:hover .social-content li a {
+    color:#fff;
+}
+
+.member-content .social-content li a:hover{
+    background:#fff;
+    color:#506c82;
+    box-shadow:0 3px 0 0 rgba(0,0,0,0.05);
+}
+#team .fa{
+    color: #738A9B;
+}
+/***********************************************************
+Footnotes
+************************************************************/
+/**
+ * Initialiazing a `footnotes` counter on the wrapper
+ */
+article {
+  counter-reset: footnotes;
+}
+/**
+ * Inline footnotes references
+ * 1. Increment the counter at each new reference
+ * 2. Reset link styles to make it appear like regular text
+ */
+a[aria-describedby="footnote-label"] {
+  counter-increment: footnotes; /* 1 */
+  text-decoration: none; /* 2 */
+  color: inherit; /* 2 */
+  cursor: default; /* 2 */
+  outline: none; /* 2 */
+}
+
+/**
+ * Actual numbered references
+ * 1. Display the current state of the counter (e.g. `[1]`)
+ * 2. Align text as superscript
+ * 3. Make the number smaller (since it's superscript)
+ * 4. Slightly offset the number from the text
+ * 5. Reset link styles on the number to show it's usable
+ */
+a[aria-describedby="footnote-label"]::after {
+  content: '[' counter(footnotes) ']'; /* 1 */
+  vertical-align: super; /* 2 */
+  font-size: 0.5em; /* 3 */
+  margin-left: 2px; /* 4 */
+  color: blue; /* 5 */
+  text-decoration: underline; /* 5 */
+  cursor: pointer; /* 5 */
+}
+
+/**
+ * Resetting the default focused styles on the number
+ */
+a[aria-describedby="footnote-label"]:focus::after {
+  outline: thin dotted;
+  outline-offset: 2px;
+}
+
+[aria-label="Back to content"] {
+  font-size: 0.8em;
+}
+footer li{
+  font-size: 0.9em;
+}
+/*********************************************************************************************
+Contact form page sticky footer - shorter content section makes the footer float upwards and 
+look odd. http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed
+**********************************************************************************************/
+/*.footer
+{
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}*/
+/*********************************************************************************************
+CSS slide animation - https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+ *********************************************************************************************/
+@keyframes slide
+{
+    0%
+    {
+        transform: translateY(70%);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slide
+{
+    0%
+    {
+        -webkit-transform: translateY(70%);
+        opacity: 0;
+    }
+    100%
+    {
+        -webkit-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+/*********************************************************************************************
+Media queries for responsive elements and screen sizes
+**********************************************************************************************/
+@media screen and (max-width: 768px)
+{
+    .col-sm-4
+    {
+        margin: 25px 0;
+        text-align: center;
+    }
+    .btn-lg
+    {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .logo
+    {
+        font-size: 150px;
+    }
+}
